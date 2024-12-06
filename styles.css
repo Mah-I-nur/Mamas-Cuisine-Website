@@ -2,58 +2,66 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Primary font for clean look */
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('background2.jpg') no-repeat center center/cover; /* Use ship image as the background */
-    color: white;
+    background-color: #ffffff; /* Clean white background */
+    color: #333; /* Neutral text for elegance */
 }
 
-/* Logo in the Top-Left */
+/* Main Container */
+.main-container {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Logo Section */
 .logo-container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
-    max-width: 120px; /* Adjust size of the logo */
+    max-width: 120px; /* Balanced size for emphasis */
 }
 
-/* Content Container Without Background */
-.content-container {
-    text-align: center;
-    padding: 30px 20px;
-}
-
-/* Business Name Styles */
+/* Business Name */
 .brand-name {
-    font-family: 'Playfair Display', serif; /* Elegant serif font for title */
-    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em; /* Larger size for impact */
     font-weight: 700;
-    color: #ff5733; /* Gold color for premium look 98FB98*/
-    margin-bottom: 10px;
+    color: #333; /* Neutral dark gray for contrast */
+    margin-bottom: 20px;
 }
 
-/* Coming Soon Text */
+/* Coming Soon Section */
+.coming-soon-container {
+    display: inline-block;
+    border: 3px solid #ffc107; /* Gold border for elegance */
+    padding: 15px 30px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffffff, #fffaf0); /* Subtle gradient for style */
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
 .coming-soon-text {
-    font-family: 'Playfair Display', serif; /* Elegant and modern font */
-    font-size: 2.5em; /* Increased size for prominence */
-    font-weight: 700;
-    color: #ffffff; /* Vibrant orange for standout effect ff5733*/
-    margin: 20px 0;
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4em; /* Bold and prominent */
+    font-weight: 600;
+    color: #ff5733; /* Vibrant orange for standout text */
+    margin: 0;
 }
 
 /* Slogan */
 .slogan {
-    font-family: 'Roboto', sans-serif; /* Clean and modern sans-serif font */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     font-weight: 400;
-    color: #ffffff; /* Bright white for contrast */
-    margin-top: 10px;
-    line-height: 1.5;
+    color: #666; /* Softer gray for readability */
+    margin-top: 15px;
+    line-height: 1.6;
 }
