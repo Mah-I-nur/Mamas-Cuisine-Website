@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #ffffff; /* Clean white background */
-    color: #333; /* Neutral text color */
+    color: #000; /* Black text for simplicity */
 }
 
 /* Main Container */
@@ -21,27 +21,21 @@ body {
 
 /* Logo Section */
 .logo-container {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Adds space below the logo */
 }
 
 .logo {
-    max-width: 120px; /* Balanced size for emphasis */
-}
-
-/* Business Name */
-.brand-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5em; /* Larger size for impact */
-    font-weight: 700;
-    color: #333; /* Neutral dark gray for contrast */
-    margin-bottom: 20px;
+    width: 40%; /* Responsive width for scaling */
+    max-width: 200px; /* Limits size on larger screens */
+    min-width: 120px; /* Ensures readability on small screens */
+    height: auto; /* Maintains aspect ratio */
 }
 
 /* Coming Soon Section */
 .coming-soon-text {
     font-family: 'Playfair Display', serif;
-    font-size: 2.4em; /* Prominent and balanced size */
+    font-size: 2.4em; /* Balanced size */
     font-weight: 600;
-    color: #000; /* Black text for simplicity */
+    text-align: center;
     margin: 0;
 }
